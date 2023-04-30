@@ -1,7 +1,7 @@
 import { defineConfig, devices } from "@playwright/test";
 
 export default defineConfig({
-    testDir: "playwright-tests",
+    testDir: "src/playwright-tests",
     fullyParallel: true,
     reporter: "html",
     use: { baseURL: "http://localhost:5173" },
