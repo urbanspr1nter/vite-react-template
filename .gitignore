@@ -136,3 +136,5 @@ dist/
 .DS_Store
 coverage/
 .vscode/
+playwright-report
+test-results
