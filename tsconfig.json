@@ -1,0 +1,16 @@
+{
+    "compilerOptions": {
+        "isolatedModules": true,
+        "useDefineForClassFields": true,
+        "target": "ESNext",
+        "module": "ESNext",
+        "moduleResolution": "node16",
+        "importHelpers": true,
+        "jsx": "react-jsx",
+        "lib": ["DOM", "DOM.Iterable", "ESNext"],
+        "strict": true,
+        "noImplicitAny": true
+    },
+    "include": ["src/**/*"],
+    "exclude": ["node_modules", "**/*/*.test.ts"]
+}
