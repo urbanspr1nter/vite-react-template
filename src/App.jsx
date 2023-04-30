@@ -1,7 +1,13 @@
 import { createRoot } from "react-dom/client";
+import "./App.css";
 
 const App = () => {
-  return <h1>Sample App</h1>;
+    return (
+        <div>
+            <h1>Sample App</h1>
+            <p>This is a sample app.</p>
+        </div>
+    );
 };
 
 const container = document.getElementById("root");
